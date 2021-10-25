@@ -1,0 +1,28 @@
+{
+  "name": "blog_f8",
+  "version": "1.0.0",
+  "description": "first blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huy48552/blog.git"
+  },
+  "author": "huycan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huy48552/blog/issues"
+  },
+  "homepage": "https://github.com/Huy48552/blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
