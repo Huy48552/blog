@@ -1,0 +1,22 @@
+<div class='mt-10'>
+    <div class='row'>
+        <div class='col-lg-3 d-lg-block d-none'>
+            <button>Học ngay</button>
+        </div>
+
+        <div class='col-lg-9 col-md- col-sm-12'>
+            <h2>
+                {{course.name}}</h2>
+            <iframe
+                width='100%'
+                min-height='100%'
+                src='https://www.youtube.com/embed/{{course.videoId}}'
+                title='YouTube video player'
+                frameborder='0'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                allowfullscreen
+            ></iframe>
+            <p>{{course.description}}</p>
+        </div>
+    </div>
+</div>

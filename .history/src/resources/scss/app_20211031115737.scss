@@ -1,0 +1,19 @@
+@import 'variables';
+
+h1 {
+    color: $red-color;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5 rem;
+    padding-bottom: 0.5 rem;
+}

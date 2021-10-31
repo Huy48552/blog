@@ -1,0 +1,32 @@
+{
+    "name": "blog_f8",
+    "version": "1.0.0",
+    "description": "first blog",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Huy48552/blog.git"
+    },
+    "author": "huycan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Huy48552/blog/issues"
+    },
+    "homepage": "https://github.com/Huy48552/blog#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.4",
+        "mongoose": "^6.0.12",
+        "node-sass": "^6.0.1"
+    },
+    "devDependencies": {
+        "handlebars": "^4.5.0",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.13"
+    }
+}
